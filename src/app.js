@@ -1,7 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
-import auctionRouter from "./book"
-import lotRouter from "./author";
+import lotRouter from "./auction";
 
 //новий екземпляр додатку 
 const app = express();
